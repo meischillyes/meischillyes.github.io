@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Our Partners - Django Rechained</title>
+    <title>Student Artworks</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+
     <style>
+   
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
         }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
+        .artwork {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
         }
-        .partner {
-            display: flex;
-            align-items: center;
-            margin-bottom: 30px;
+        .artwork img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+            border-radius: 5px;
         }
-        .partner img {
-            max-width: 100px;
-            margin-right: 20px;
-        }
-        .partner h3 {
-            font-size: 18px;
-            margin: 0;
-        }
-        .partner p {
-            margin-top: 5px;
+        .artwork p {
+            margin-top: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Our Partners</h1>
-    <div class="partner">
-        <img src="partner1.png" alt="Partner 1">
-        <div>
-            <h3>Partner 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+    <h1>Student Artworks</h1>
+
+    <div class="artwork">
+        <img src="" alt="Artwork 1">
+        <p>Artwork 1</p>
     </div>
-    <div class="partner">
-        <img src="partner2.png" alt="Partner 2">
-        <div>
-            <h3>Partner 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+
+    <div class="artwork">
+        <img src="artwork2.jpg" alt="Artwork 2">
+        <p>Artwork 2</p>
     </div>
-    <div class="partner">
-        <img src="partner3.png" alt="Partner 3">
-        <div>
-            <h3>Partner 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+
+    <div class="artwork">
+        <img src="artwork3.jpg" alt="Artwork 3">
+        <p>Artwork 3</p>
     </div>
+
+
 </body>
 </html>
