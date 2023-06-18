@@ -12,7 +12,7 @@
         }
 
 #news {
-  background-color: #00008B;
+  background-color: #D3D3D3;
   padding: 20px;
 }
 
@@ -44,6 +44,9 @@
 
 #news p {
   margin-bottom: 20px;
+}
+#news {
+    border: 2px solid black;
 }
 
 
