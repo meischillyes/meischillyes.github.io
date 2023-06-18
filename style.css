@@ -1,4 +1,12 @@
- .mex {
+
+.image-container {
+            display: flex;
+        }
+        .image-container img {
+            width: 50%; /* Adjust the width as needed */
+        }
+
+.mex {
             display: flex;
             gap: 100px;
         }
