@@ -1,4 +1,7 @@
-
+   }
+        .artwork img-spacing {
+    margin: 30px;
+}
    .monkey {
             display: flex;
             gap: 100px;
