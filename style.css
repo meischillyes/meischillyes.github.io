@@ -1,4 +1,14 @@
-   }
+.thing {
+            display: flex;
+            gap: 100px;
+        }
+        p {
+            margin: 0;
+        }
+
+
+
+}
         .artwork img-spacing {
     margin: 30px;
 }
