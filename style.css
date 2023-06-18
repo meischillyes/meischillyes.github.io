@@ -1,4 +1,10 @@
-
+ .mex {
+            display: flex;
+            gap: 100px;
+        }
+        p {
+            margin: 0;
+        }
 
 
 
