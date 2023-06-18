@@ -1,3 +1,54 @@
+
+
+
+
+
+.next{
+            display: flex;
+            gap: 100px;
+        }
+        p {
+            margin: 0;
+        }
+
+#news {
+  background-color: #00008B;
+  padding: 20px;
+}
+
+#news h2 {
+  color: #333;
+}
+
+#news ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#news li {
+  margin-bottom: 10px;
+}
+
+#news li:last-child {
+  margin-bottom: 0;
+}
+
+#news li::before {
+  content: "\2022";
+  color: #999;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#news p {
+  margin-bottom: 20px;
+}
+
+
+
+
 .thing {
             display: flex;
             gap: 100px;
